@@ -11,7 +11,7 @@ class Workshed < Formula
   on_macos do
     on_intel do
       url "https://github.com/frodi-karlsson/workshed/releases/download/v0.7.0/workshed_darwin_amd64.tar.gz"
-      sha256 "3ad1900a57108f71b37f0f9909abaaa9dac93648fb73ac7e4e9fd5fa94d1b9d8"
+      sha256 "92899fc131eb4b8cbb6edbfb61152b987299f7d692926bb07ab98deee814f1ac"
 
       def install
         bin.install "workshed"
@@ -19,7 +19,7 @@ class Workshed < Formula
     end
     on_arm do
       url "https://github.com/frodi-karlsson/workshed/releases/download/v0.7.0/workshed_darwin_arm64.tar.gz"
-      sha256 "c387109381afa319c9a5e7a9aecde054a6b25b0ae4970c8bf7711f53ae2c5b14"
+      sha256 "f043b8b762b752299b9806673308df84bf9492a6844dd59d11f55f6719bcb5d0"
 
       def install
         bin.install "workshed"
@@ -31,7 +31,7 @@ class Workshed < Formula
     on_intel do
       if Hardware::CPU.is_64_bit?
         url "https://github.com/frodi-karlsson/workshed/releases/download/v0.7.0/workshed_linux_amd64.tar.gz"
-        sha256 "fa253398f2a977905e8fe8e29e8689643cdbfe6798b7beb27df1dc24ffd01d6c"
+        sha256 "5155a51a4278878d84a206635edba8037886696b6cdf5f990d5d3aaeac0465db"
 
         def install
           bin.install "workshed"
@@ -41,7 +41,7 @@ class Workshed < Formula
     on_arm do
       if Hardware::CPU.is_64_bit?
         url "https://github.com/frodi-karlsson/workshed/releases/download/v0.7.0/workshed_linux_arm64.tar.gz"
-        sha256 "1ced03ce0d6d95e50daae23fbd825272315446166014b99773dddb2f273fe15e"
+        sha256 "aab149bad431af113974b35728da5f6d45bce04f52824257a14453b5a7b4258a"
 
         def install
           bin.install "workshed"
