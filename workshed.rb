@@ -5,21 +5,21 @@
 class Workshed < Formula
   desc "A tool for managing local development environments"
   homepage "https://github.com/frodi-karlsson/workshed"
-  version "0.7.2"
+  version "0.8.1"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/frodi-karlsson/workshed/releases/download/v0.7.2/workshed_darwin_amd64.tar.gz"
-      sha256 "78b10bfa3924232892f01a27fd9a20b21fc43929dd082d842639bfafda4b9aaa"
+      url "https://github.com/frodi-karlsson/workshed/releases/download/v0.8.1/workshed_darwin_amd64.tar.gz"
+      sha256 "c1793cc4cbfebd36092ed6bb9e3384fe402297b76096ac045310d4b41c0fbe8b"
 
       def install
         bin.install "workshed"
       end
     end
     on_arm do
-      url "https://github.com/frodi-karlsson/workshed/releases/download/v0.7.2/workshed_darwin_arm64.tar.gz"
-      sha256 "37d5e9b474af42a8f2ca48a5c8d31693898f381f9d2dc7302b660eccf84558d5"
+      url "https://github.com/frodi-karlsson/workshed/releases/download/v0.8.1/workshed_darwin_arm64.tar.gz"
+      sha256 "1a2fd9fa71812ad9492e68fb52e8e989c01470973942ac7f12a6a8ef82f161d5"
 
       def install
         bin.install "workshed"
@@ -30,8 +30,8 @@ class Workshed < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/frodi-karlsson/workshed/releases/download/v0.7.2/workshed_linux_amd64.tar.gz"
-        sha256 "691168dfe2a7dde9399f235530e504c204b89e5760fcb8d85badb44383f8e1fd"
+        url "https://github.com/frodi-karlsson/workshed/releases/download/v0.8.1/workshed_linux_amd64.tar.gz"
+        sha256 "d7d55558d957e6eab7090b27e6349b9012d3d82e18c64e929c56b6d0a91e07f7"
 
         def install
           bin.install "workshed"
@@ -40,8 +40,8 @@ class Workshed < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/frodi-karlsson/workshed/releases/download/v0.7.2/workshed_linux_arm64.tar.gz"
-        sha256 "e4a495a80ae20d9f4d9812f2c0e55c5857ca03cc992ae1c5ed8456e464b8a063"
+        url "https://github.com/frodi-karlsson/workshed/releases/download/v0.8.1/workshed_linux_arm64.tar.gz"
+        sha256 "55681dbd5157541be372336fa4a819d365ef2c1dd20901d2aa0085aa8f575c5a"
 
         def install
           bin.install "workshed"
