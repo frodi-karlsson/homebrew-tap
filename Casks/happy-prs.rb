@@ -16,6 +16,15 @@ cask "happy-prs" do
 
   app "Happy PRs.app"
 
+  # The .app is only ad-hoc signed (no Apple Developer ID), so the
+  # quarantine attribute that brew applies to network-downloaded
+  # artifacts would otherwise trigger a Gatekeeper "could not verify"
+  # block on first launch. Strip it so the app opens normally.
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-rds", "com.apple.quarantine", "#{appdir}/Happy PRs.app"]
+  end
+
   zap trash: [
     "~/Library/Preferences/com.frodikarlsson.happyprs.plist",
     "~/Library/LaunchAgents/com.frodikarlsson.happyprs.plist",
