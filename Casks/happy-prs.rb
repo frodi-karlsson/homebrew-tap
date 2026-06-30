@@ -7,7 +7,7 @@ cask "happy-prs" do
   desc "Menubar app surfacing GitHub PRs that need your input"
   homepage "https://github.com/frodi-karlsson/happy-prs"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
   # The app shells out to `gh auth token` to talk to GitHub. Brew will
   # install gh first if it isn't already present. The user still has
   # to run `gh auth login` once — the app prompts with that exact
