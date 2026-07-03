@@ -1,6 +1,6 @@
 cask "happy-prs" do
-  version "0.3.1"
-  sha256 "cc85af3bb5c242a51b4a1de625bbde236e05806d4f1c3fbf83e6a716d6b8d667"
+  version "0.4.0"
+  sha256 "463eb050a0678a1b12c42f904b48e08a1573b0a64a2d373015d333ab2f95794a"
 
   url "https://github.com/frodi-karlsson/happy-prs/releases/download/v#{version}/happy-prs-#{version}.tar.gz"
   name "Happy PRs"
