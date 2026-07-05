@@ -1,7 +1,7 @@
 cask "app-audit-menubar" do
-  version "0.1.0"
-  sha256 "fd7af0c283be1bf7c548049458bb752955a31da7eb3d3dc07290165a858b7e08"
-  url "https://github.com/frodi-karlsson/agentic-app-audit/releases/download/app-v0.1.0/AppAudit.zip"
+  version "0.1.1"
+  sha256 "9225eafcde73ce9c177a90f039d7cc4c56c3db76988bb33c36517e15298ac953"
+  url "https://github.com/frodi-karlsson/agentic-app-audit/releases/download/app-v0.1.1/AppAudit.zip"
   name "App Audit"
   desc "Menu-bar app for staleness and CVE audits"
   homepage "https://github.com/frodi-karlsson/agentic-app-audit"
