@@ -5,28 +5,28 @@
 class Onesie < Formula
   desc "Command line interface for TypeSafe Jev"
   homepage "https://github.com/frodi-karlsson/onesie"
-  version "0.2.0"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/frodi-karlsson/onesie/releases/download/v0.2.0/onesie_0.2.0_darwin_arm64.tar.gz"
-      sha256 "122a3c3dd07c91efdf999ca6f40946190707bbcdffbf77dcb312d1c2661c9468"
+      url "https://github.com/frodi-karlsson/onesie/releases/download/v0.3.0/onesie_0.3.0_darwin_arm64.tar.gz"
+      sha256 "a66550e3533220810b77d74961eb50671bd7231b8067ab8692b50dd74cf48ef6"
     end
     on_intel do
-      url "https://github.com/frodi-karlsson/onesie/releases/download/v0.2.0/onesie_0.2.0_darwin_amd64.tar.gz"
-      sha256 "7a8fa2f44572215fb743bc83a6aac56400efdb8204e8e8699004f22d9c6cbd79"
+      url "https://github.com/frodi-karlsson/onesie/releases/download/v0.3.0/onesie_0.3.0_darwin_amd64.tar.gz"
+      sha256 "561fcd60ca188f6de12a29984193e6d1ca1c5176525de8bbd09403a1c8e2170f"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/frodi-karlsson/onesie/releases/download/v0.2.0/onesie_0.2.0_linux_arm64.tar.gz"
-      sha256 "6055f190c4829b1b15a8ec2b0b81a963658f6eb481e3bc2e86610810131798c7"
+      url "https://github.com/frodi-karlsson/onesie/releases/download/v0.3.0/onesie_0.3.0_linux_arm64.tar.gz"
+      sha256 "c6d68c78fc13ce59e95df72c16582583537903b997f93ce6360e7a8e101bb9a2"
     end
     on_intel do
-      url "https://github.com/frodi-karlsson/onesie/releases/download/v0.2.0/onesie_0.2.0_linux_amd64.tar.gz"
-      sha256 "09f20a22ced4fdedbcd90eb775ece444bae1fa9f7196537229ffe4e29aff0ff1"
+      url "https://github.com/frodi-karlsson/onesie/releases/download/v0.3.0/onesie_0.3.0_linux_amd64.tar.gz"
+      sha256 "a07326e62e31fbcd123453a4fece00e6ef1ecb075f314745b988f87683351cc3"
     end
   end
 
