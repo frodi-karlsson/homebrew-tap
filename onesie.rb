@@ -5,28 +5,28 @@
 class Onesie < Formula
   desc "Ask System One models typed questions about text from the shell"
   homepage "https://github.com/frodi-karlsson/onesie"
-  version "0.8.0"
+  version "0.9.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/frodi-karlsson/onesie/releases/download/v0.8.0/onesie_0.8.0_darwin_arm64.tar.gz"
-      sha256 "0ea4d5f91d6dfdadd399cc08d6df20a17413cb5cfe5ef1ffeb4375394cec71dc"
+      url "https://github.com/frodi-karlsson/onesie/releases/download/v0.9.0/onesie_0.9.0_darwin_arm64.tar.gz"
+      sha256 "7bdd9775165799446f72629e3f6eabe1511b2f5edf76bee825d53c38eff0f0b8"
     end
     on_intel do
-      url "https://github.com/frodi-karlsson/onesie/releases/download/v0.8.0/onesie_0.8.0_darwin_amd64.tar.gz"
-      sha256 "293cf73723f604254c9843fb2e0faab55fb1036566aad7e27d4850daadd33237"
+      url "https://github.com/frodi-karlsson/onesie/releases/download/v0.9.0/onesie_0.9.0_darwin_amd64.tar.gz"
+      sha256 "4a69cdd27590ae0c37f15d3458a5e2ac278f89787ffa157ee9fb70214ee85f10"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/frodi-karlsson/onesie/releases/download/v0.8.0/onesie_0.8.0_linux_arm64.tar.gz"
-      sha256 "a049e6fc35447c699b157fb72bea836baec211d36af251a05209e5e420770462"
+      url "https://github.com/frodi-karlsson/onesie/releases/download/v0.9.0/onesie_0.9.0_linux_arm64.tar.gz"
+      sha256 "fafb8af0b75b16436e5d5365da645b9b2e1ea5147bcbad43550777497f9cd926"
     end
     on_intel do
-      url "https://github.com/frodi-karlsson/onesie/releases/download/v0.8.0/onesie_0.8.0_linux_amd64.tar.gz"
-      sha256 "3a62407ff8701f2eb4cbbe64d0049398e452569f7b0e179109e6c21ed8fb78af"
+      url "https://github.com/frodi-karlsson/onesie/releases/download/v0.9.0/onesie_0.9.0_linux_amd64.tar.gz"
+      sha256 "c6d9a2730c1d23bcb3de25ed40e65e2aa28daf680c0a5f497e1f5f3d8e2f3782"
     end
   end
 
